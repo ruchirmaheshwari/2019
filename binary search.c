@@ -19,9 +19,9 @@ int Binary_Search(int a[10], int l , int u , int item)
  }
 void main()
 {
-   int i,j ,arr[10],temp=0,l,u,mid,n,item,flag,pos;
+   int i,j ,arr[10],temp=0,l,u,mid,n,item,flag=0,pos;
    clrscr();
-   flag=0;
+ 
       printf("\nEnter size of array elemnts : ");
       scanf("%d",&n);
       printf("\nEnter array elements : \n");
