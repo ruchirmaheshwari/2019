@@ -71,7 +71,12 @@ void main() {
    for (i = 0; i < n; i++)
       for (j = 0; j < n; j++) {
          scanf("%d", &cost[i][j]);
+      } printf("\nThe matrix is : ");
+   for (i = 0; i < n; i++) {
+      for (j = 0; j < n; j++) {
+         printf("%d\t", cost[i][j]);
       }
+      printf("\n");
 
    }
    prim();
