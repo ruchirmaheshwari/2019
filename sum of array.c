@@ -23,15 +23,15 @@ void main()
   float a[100] , s ;
   int n , i;
   clrscr() ;
-     printf("\n Enter no of elements : ");
+     printf("\n Enter no of elements : \n");
      scanf("%d",&n);
            for(i=0;i<n;i++)
               {
-                 printf("\n Enter element : ");
+                 printf("\n Enter element : \n");
                  scanf("%f",&a[i]);
               }
            printf("\n");
-          for(i=0;i<n;i++)
+          for(i=0;i<n;i=i+1)
               {
                   printf(" %f ",a[i]);
               }
