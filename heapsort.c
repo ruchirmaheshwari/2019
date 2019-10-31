@@ -43,7 +43,10 @@ void down_adjust(int heap[],int i)
 		if(heap[i] > heap[j])
 			flag=0;
 		else
-		{
+		{temp=heap[i];
+			heap[i]=heap[j];
+			heap[j]=temp;
+			i=j;
 			
 		}
 	}
