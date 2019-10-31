@@ -38,7 +38,7 @@ void main()
      s=Sum(a,n);
      printf("\n");
      printf("\n Sum = %f \n Count = %d",s,count);
-
+     printf("\n programmed perform by ruchir toshniwal");
 
 getch();
 }
