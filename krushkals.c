@@ -56,6 +56,10 @@ int find(int i)
 }
 int uni(int i,int j)
 {
-	
+	if(i!=j)
+	{
+		parent[j]=i;
+		return 1;
+	}
 	return 0;
 }
