@@ -62,6 +62,7 @@ void main()
             }
        count=count+1;
          printf("\n Matrix 3\n");
+	printf("\n matrix ");
       
 
    
